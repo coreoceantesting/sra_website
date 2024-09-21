@@ -28,27 +28,27 @@
 
 
                     <li class="has-sub">
-                        <a href="https://sra.gov.in/pagem/innerpage/department-history-marathi.php" target="" title="विभागीय माहिती" class="">विभागीय माहिती</a>
+                        <a href="{{ route('department-history') }}" target="" title="विभागीय माहिती" class="">विभागीय माहिती</a>
 
                     </li>
 
                     <li class="has-sub">
-                        <a href="https://sra.gov.in/pagem/innerpage/vision---mission-marathi.php" target="" title="हेतू आणि ध्येय" class="">हेतू आणि ध्येय</a>
+                        <a href="{{ route('vision-mission-marathi') }}" target="" title="हेतू आणि ध्येय" class="">हेतू आणि ध्येय</a>
 
                     </li>
 
                     <li class="has-sub">
-                        <a href="https://sra.gov.in/pagem/innerpage/organization-structure-marathi.php" target="" title="संस्थेचा आराखडा" class="activelm">संस्थेचा आराखडा</a>
+                        <a href="{{ route('organization-structure-marathi') }}" target="" title="संस्थेचा आराखडा" class="activelm">संस्थेचा आराखडा</a>
 
                     </li>
 
                     <li class="has-sub">
-                        <a href="https://sra.gov.in/pagem/innerpage/our-leaderhip-marathi.php" target="" title="आमचे नेतृत्व" class="">आमचे नेतृत्व</a>
+                        <a href="{{ route('our-leaderhip-marathi') }}" target="" title="आमचे नेतृत्व" class="">आमचे नेतृत्व</a>
 
                     </li>
 
                     <li class="has-sub">
-                        <a href="https://sra.gov.in/pagem/innerpage/authority-members-marathi.php" target="" title="सक्षम सदस्य" class="">सक्षम सदस्य</a>
+                        <a href="{{ route('authority-members-marathi') }}" target="" title="सक्षम सदस्य" class="">सक्षम सदस्य</a>
 
                     </li>
 
