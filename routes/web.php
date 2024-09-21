@@ -29,10 +29,26 @@ Route::get('test', function () {
 Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'Home']);
 Route::get('rtimarathi', [App\Http\Controllers\website\MainController::class, 'rtimarathi'])->name('rtimarathi');
 Route::get('about-drp', [App\Http\Controllers\website\MainController::class, 'aboutDrp'])->name('about-drp');
-
-
-
-
+Route::get('department-history', [App\Http\Controllers\website\MainController::class, 'departmentHistory'])->name('department-history');
+Route::get('vision-mission-marathi', [App\Http\Controllers\website\MainController::class, 'visionMissionMarathi'])->name('vision-mission-marathi');
+Route::get('organization-structure-marathi', [App\Http\Controllers\website\MainController::class, 'organizationStructureMarathi'])->name('organization-structure-marathi');
+Route::get('our-leaderhip-marathi', [App\Http\Controllers\website\MainController::class, 'ourLeaderhipMarathi'])->name('our-leaderhip-marathi');
+Route::get('authority-members-marathi', [App\Http\Controllers\website\MainController::class, 'authorityMembersMarathi'])->name('authority-members-marathi');
+Route::get('our-affiliated-offices-marathi', [App\Http\Controllers\website\MainController::class, 'ourAffiliatedOfficesmarathi'])->name('our-affiliated-offices-marathi');
+Route::get('thane-city-marathi', [App\Http\Controllers\website\MainController::class, 'thaneCityMarathi'])->name('thane-city-marathi');
+Route::get('our-projects-marathi', [App\Http\Controllers\website\MainController::class, 'ourProjectsMarathi'])->name('our-projects-marathi');
+Route::get('tenders-notices-marathi', [App\Http\Controllers\website\MainController::class, 'tendersNoticesMarathi'])->name('tenders-notices-marathi');
+Route::get('resources-marathi', [App\Http\Controllers\website\MainController::class, 'resourcesMarathi'])->name('resources-marathi');
+Route::get('notification-acts-marathi', [App\Http\Controllers\website\MainController::class, 'notificationActsMarathi'])->name('notification-acts-marathi');
+Route::get('coopertaive-department-marathi', [App\Http\Controllers\website\MainController::class, 'coopertaiveDepartmentMarathi'])->name('coopertaive-department-marathi');
+Route::get('act-rules-marathi', [App\Http\Controllers\website\MainController::class, 'actRulesMarathi'])->name('act-rules-marathi');
+Route::get('housing-manual-marathi', [App\Http\Controllers\website\MainController::class, 'housingManualMarathi'])->name('housing-manual-marathi');
+Route::get('government-resolutions', [App\Http\Controllers\website\MainController::class, 'governmentResolutions'])->name('government-resolutions');
+Route::get('ordersm', [App\Http\Controllers\website\MainController::class, 'ordersm'])->name('ordersm');
+Route::get('gis-mis-slum-data-marathi', [App\Http\Controllers\website\MainController::class, 'gisMisSlumDataMarathi'])->name('gis-mis-slum-data-marathi');
+Route::get('circularm', [App\Http\Controllers\website\MainController::class, 'circularm'])->name('circularm');
+Route::get('gallery', [App\Http\Controllers\website\MainController::class, 'gallery'])->name('gallery');
+Route::get('photo-gallery', [App\Http\Controllers\website\MainController::class, 'photoGallery'])->name('photo-gallery');
 
 
 

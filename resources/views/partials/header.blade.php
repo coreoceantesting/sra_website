@@ -153,54 +153,54 @@
                 </a>
             </li>
             <li class="has-sub">
-                <a href="https://www.sra.gov.in/pagem/innerpage/about-us.php" target=""
+                <a href="{{ route('about-drp') }}" target=""
                 title="आमच्या विषयी">
                 आमच्या विषयी
                 </a>
                 <ul>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/department-history-marathi.php"
+                    <a href="{{ route('department-history') }}"
                     title="विभागीय माहिती">
                     विभागीय माहिती
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/vision---mission-marathi.php"
+                    <a href="{{ route('vision-mission-marathi') }}"
                     title="हेतू आणि ध्येय">
                     हेतू आणि ध्येय
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/organization-structure-marathi.php"
+                    <a href="{{ route('organization-structure-marathi') }}"
                     title="संस्थेचा आराखडा">
                     संस्थेचा आराखडा
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/our-leaderhip-marathi.php"
+                    <a href="{{ route('our-leaderhip-marathi') }}"
                     title="आमचे नेतृत्व">
                     आमचे नेतृत्व
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/authority-members-marathi.php"
+                    <a href="{{ route('authority-members-marathi') }}"
                     title="सक्षम सदस्य">
                     सक्षम सदस्य
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/our-affiliated-offices-marathi.php"
+                    <a href="{{ route('our-affiliated-offices-marathi') }}"
                     title="संलग्न कार्यालये">
                     संलग्न कार्यालये
                     </a>
                     <ul>
                     <li>
-                        <a href="https://www.sra.gov.in/upload/cmsfiles/" target="_blank" title="डी.आर.पी  (धारावी)">
+                        <a href="https://housing.maharashtra.gov.in/" target="_blank" title="डी.आर.पी  (धारावी)">
                         डी.आर.पी (धारावी)
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.sra.gov.in/pagem/innerpage/thane-city-marathi.php"
+                        <a href="{{ route('thane-city-marathi') }}"
                         target="" title="ठाणे शहर">
                         ठाणे शहर
                         </a>
@@ -218,12 +218,12 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/gallery.php" title="गॅलरी">
+                    <a href="{{ route('gallery') }}" title="गॅलरी">
                     गॅलरी
                     </a>
                     <ul>
                     <li>
-                        <a href="https://www.sra.gov.in/pagem/innerpage/photo-gallery.php" target=""
+                        <a href="{{ route('photo-gallery') }}" target=""
                         title="फोटो गॅलरी">
                         फोटो गॅलरी
                         </a>
@@ -239,61 +239,61 @@
                 </ul>
             </li>
             <li class="has-sub">
-                <a href="https://www.sra.gov.in/pagem/innerpage/our-projects-marathi.php"
+                <a href="{{ route('our-projects-marathi') }}"
                 target="" title="आमचे प्रकल्प">
                 आमचे प्रकल्प
                 </a>
             </li>
             <li class="has-sub">
-                <a href="https://www.sra.gov.in/pagem/innerpage/tenders---notices-marathi.php"
+                <a href="{{ route('tenders-notices-marathi') }}"
                 target="" title="निविदा आणि सूचना">
                 निविदा आणि सूचना
                 </a>
             </li>
             <li class="has-sub">
-                <a href="https://www.sra.gov.in/pagem/innerpage/resources-marathi.php"
+                <a href="{{ route('resources-marathi') }}"
                 target="" title="संसाधने">
                 संसाधने
                 </a>
                 <ul>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/notification---acts-marathi.php"
+                    <a href="{{ route('notification-acts-marathi') }}"
                     title="अधिसूचना आणि कायदा">
                     अधिसूचना आणि कायदा
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/upload/cmsfiles/15139381181509647295sanad.pdf"
+                    <a href="{{ asset('storage/pdf/15139381181509647295sanad.pdf') }}"
                     _blank title="नागरी सनद">
                     नागरी सनद
                     </a>
                 </li>
                 <li>
-                    <a href="http://sra.gov.in/circularm" target="_blank" title="आमची परिपत्रके"
+                    <a href="{{ route('circularm') }}" target="_blank" title="आमची परिपत्रके"
                     onclick="return confirm('External website that opens in a new window.')">
                     आमची परिपत्रके
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/gis-mis-slum-data-marathi.php"
+                    <a href="{{ route('gis-mis-slum-data-marathi') }}"
                     title="जीआयएस-एमआयएस झोपडपट्टी डेटा">
                     जीआयएस-एमआयएस झोपडपट्टी डेटा
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/coopertaive-department-marathi.php"
+                    <a href="{{ route('coopertaive-department-marathi') }}"
                     title="सहकार विभाग">
                     सहकार विभाग
                     </a>
                     <ul>
                     <li>
-                        <a href="https://www.sra.gov.in/pagem/innerpage/act-and-rules-marathi.php"
+                        <a href="{{ route('act-rules-marathi') }}"
                         target="" title="कायदा व नियम">
                         कायदा व नियम
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.sra.gov.in/pagem/innerpage/housing-manual-marathi.php"
+                        <a href="{{ route('housing-manual-marathi') }}"
                         target="" title="गृहनिर्माण पुस्तिका">
                         गृहनिर्माण पुस्तिका
                         </a>
@@ -301,13 +301,13 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="http://sra.gov.in/ordersm" target="_blank" title="आमचे आदेश"
+                    <a href="{{ route('ordersm') }}" target="_blank" title="आमचे आदेश"
                     onclick="return confirm('External website that opens in a new window.')">
                     आमचे आदेश
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/https:grmaharashtragovin1145government-resolutions.php"
+                    <a href="{{ route('government-resolutions') }}"
                     title="शासन निर्णय">
                     शासन निर्णय
                     </a>
