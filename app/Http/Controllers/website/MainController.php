@@ -14,4 +14,8 @@ class MainController extends Controller
     {
         return view('pagem.innerpage.department-history-marathi');
     }
+
+    public function rtimarathi(){
+        return view('pagem/innerpage/rti-marathi');
+    }
 }

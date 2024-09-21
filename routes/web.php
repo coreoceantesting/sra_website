@@ -27,7 +27,7 @@ Route::get('test', function () {
 
 
 Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'Home']);
-Route::get('rtimarathi', [App\Http\Controllers\Admin\DashboardController::class, 'rtimarathi']);
+Route::get('rtimarathi', [App\Http\Controllers\website\MainController::class, 'rtimarathi'])->name('rtimarathi');
 Route::get('about-drp', [App\Http\Controllers\website\MainController::class, 'aboutDrp'])->name('about-drp');
 
 
