@@ -111,4 +111,9 @@ class MainController extends Controller
     public function rtimarathi(){
         return view('pagem/innerpage/rti-marathi');
     }
+
+    public function processtracker(){
+        return view('pagem/innerpage/processtracker');
+
+    }
 }

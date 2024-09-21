@@ -50,6 +50,44 @@ Route::get('circularm', [App\Http\Controllers\website\MainController::class, 'ci
 Route::get('gallery', [App\Http\Controllers\website\MainController::class, 'gallery'])->name('gallery');
 Route::get('photo-gallery', [App\Http\Controllers\website\MainController::class, 'photoGallery'])->name('photo-gallery');
 
+Route::get('processtracker', [App\Http\Controllers\website\MainController::class, 'processtracker'])->name('processtracker');
+
+Route::get('rentmanagemntsystemmr', [App\Http\Controllers\TestController::class, 'rentmanagemntsystemmr'])->name('rentmanagemntsystemmr');
+
+Route::get('transferoftenements', [App\Http\Controllers\TestController::class, 'transferoftenements'])->name('transferoftenements');
+
+
+Route::get('contactusmarathi', [App\Http\Controllers\TestController::class, 'contactusmarathi'])->name('contactusmarathi');
+
+
+Route::get('contactdirectorymarathi', [App\Http\Controllers\TestController::class, 'contactdirectorymarathi'])->name('contactdirectorymarathi');
+
+Route::get('righttoservicemarathi', [App\Http\Controllers\TestController::class, 'righttoservicemarathi'])->name('righttoservicemarathi');
+
+Route::get('enviornmentcellmarathi', [App\Http\Controllers\TestController::class, 'enviornmentcellmarathi'])->name('enviornmentcellmarathi');
+
+Route::get('6', [App\Http\Controllers\TestController::class, 'eknath_shinde'])->name('eknath_shinde');
+Route::get('7', [App\Http\Controllers\TestController::class, 'devendra_fadanvis'])->name('devendra_fadanvis');
+
+Route::get('8', [App\Http\Controllers\TestController::class, 'ajitpawar'])->name('ajitpawar');
+
+
+Route::get('10', [App\Http\Controllers\TestController::class, 'atulsave'])->name('atulsave');
+Route::get('14', [App\Http\Controllers\TestController::class, 'valsyasingha'])->name('valsyasingha');
+
+Route::get('16', [App\Http\Controllers\TestController::class, 'mahendrakalyankar'])->name('mahendrakalyankar');
+
+Route::get('faq', [App\Http\Controllers\TestController::class, 'faq'])->name('faq');
+
+
+Route::get('actandrulesmarathi', [App\Http\Controllers\TestController::class, 'actandrulesmarathi'])->name('actandrulesmarathi');
+
+Route::get('notification---acts-marathi', [App\Http\Controllers\TestController::class, 'notificationactsmarathi'])->name('notificationactsmarathi');
+
+Route::get('gis-mis-slum-data-marathi', [App\Http\Controllers\TestController::class, 'gismisslumdatamarathi'])->name('gismisslumdatamarathi');
+
+
+
 
 
 

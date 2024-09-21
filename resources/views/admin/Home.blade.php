@@ -122,7 +122,7 @@
                             <img src="https://www.sra.gov.in/upload/minister/CM1.jpg" width="75" height="75" style="border-radius: 15px;" alt="श्री. एकनाथ शिंदे" title="श्री. एकनाथ शिंदे">
                         </div>
                         <div style="flex-grow: 1; text-align: center;">
-                            <a href="https://www.sra.gov.in/ministerm/detail/6">
+                            <a href="{{route('eknath_shinde')}}">
                                 <span class="font_20" style="display: block; color: white;">श्री. एकनाथ शिंदे</span>
                                 <span class="font_16" style="display: block; color: white;">मा. मुख्यमंत्री साहेब</span>
                             </a>
@@ -136,7 +136,7 @@
                             <img src="https://www.sra.gov.in/upload/minister/ajitpawar1.png" width="75" height="75" style="border-radius: 15px;" alt="श्री. अजित पवार" title="श्री. अजित पवार">
                         </div>
                         <div style="flex-grow: 1; text-align: center;">
-                            <a href="https://www.sra.gov.in/ministerm/detail/8">
+                            <a href="{{route('ajitpawar')}}">
                                 <span class="font_20" style="display: block; color: white;">श्री. अजित पवार</span>
                                 <span class="font_16" style="display: block; color: white;">मा.उपमुख्यमंत्री साहेब</span>
                             </a>
@@ -150,7 +150,7 @@
                             <img src="https://www.sra.gov.in/upload/minister/valsanair.jpeg" width="75" height="70" style="border-radius: 15px;" alt="श्रीमती. वल्सा नायर सिंग (भा.प्र.से)" title="श्रीमती. वल्सा नायर सिंग (भा.प्र.से)">
                         </div>
                         <div style="flex-grow: 1; text-align: center;">
-                            <a href="https://www.sra.gov.in/ministerm/detail/5">
+                            <a href="{{route('valsyasingha')}}">
                                 <span class="font_20" style="display: block; color: white;">श्रीमती. वल्सा नायर सिंग</span>
                                 <span class="font_16" style="display: block; color: white;">मा.केंद्रीय मंत्री साहेब</span>
                             </a>
@@ -164,7 +164,7 @@
                             <img src="https://www.sra.gov.in/upload/minister/D_CM1.jpg" width="75" height="70" style="border-radius: 15px;" alt="श्री. देवेंद्र फडणवीस" title="श्री. देवेंद्र फडणवीस">
                         </div>
                         <div style="flex-grow: 1; text-align: center;">
-                            <a href="https://www.sra.gov.in/ministerm/detail/7">
+                            <a href="{{route('devendra_fadanvis')}}">
                                 <span class="font_20" style="display: block; color: white;">श्री. देवेंद्र फडणवीस</span>
                                 <span class="font_16" style="display: block; color: white;">मा.उपमुख्यमंत्री साहेब</span>
                             </a>
@@ -178,7 +178,7 @@
                             <img src="https://www.sra.gov.in/upload/minister/images1.jpg" width="75" height="70" style="border-radius: 15px;" alt="श्री. अतुल सावे" title="श्री. अतुल सावे">
                         </div>
                         <div style="flex-grow: 1; text-align: center;">
-                            <a href="https://www.sra.gov.in/ministerm/detail/10">
+                            <a href="{{route('atulsave')}}">
                                 <span class="font_20" style="display: block; color: white;">श्री. अतुल सावे</span>
                                 <span class="font_16" style="display: block; color: white;">मा.गृहनिर्माण मंत्री</span>
                             </a>
@@ -192,7 +192,7 @@
                             <img src="https://www.sra.gov.in/upload/minister/WhatsApp_Image_2024-05-10_at_11_32_37_AM.jpeg" width="75" height="70" style="border-radius: 15px;" alt="डॉ. महेंद्र कल्याणकर (भा.प्र.से.)" title="डॉ. महेंद्र कल्याणकर (भा.प्र.से.)">
                         </div>
                         <div style="flex-grow: 1; text-align: center;">
-                            <a href="https://www.sra.gov.in/ministerm/detail/16">
+                            <a href="{{route('mahendrakalyankar')}}">
                                 <span class="font_20" style="display: block; color: white;">डॉ. महेंद्र कल्याणकर (भा.प्र.से.)</span>
                                 <span class="font_16" style="display: block; color: white;">मुख्य कार्यकारी अधिकारी, एसआरए</span>
                                 <span class="font_16" style="display: block; color: white;">बृहन्मुंबई</span>
@@ -322,14 +322,14 @@
           <div class="important_links">
             <ul>
               <li>
-                <button class="blue-button" onclick="window.location.href='https://www.sra.gov.in/faq'">
+                <button class="blue-button" onclick="window.location.href='{{route('faq')}}'">
                   <span class="text">
                     वारंवार विचारले जाणारे प्रश्न
                   </span>
                 </button>
               </li>
               <li>
-                <button class="blue-button" onclick="window.location.href='https://www.sra.gov.in/faq'">
+                <button class="blue-button" onclick="window.location.href='{{route('actandrulesmarathi')}}'">
                   <span class="text">
                     सहकारी विभाग
                   </span>
