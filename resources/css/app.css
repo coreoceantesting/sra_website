@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'David-Bold';
+    src: url('../fonts/David-Bold.woff') format('woff'), /* Adjust the path based on the file type */
+         url('../fonts/David-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
