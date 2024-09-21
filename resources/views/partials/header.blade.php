@@ -138,3 +138,268 @@
       }
     </script>
   </header>
+
+  <section>
+    <div id="main-nav" class=" navigation-bg" style="background-color: rgb(234, 80, 14);">
+        <nav>
+        <div class="mean-container" id="navigation">
+            <ul class="clearfix sf-menu" id="example">
+
+            <li class="current">
+                <a href="https://www.sra.gov.in/marathi" title="मुख्य पृष्ठ " class="home_icon">
+                <span>
+                    मुख्य पृष्ठ
+                </span>
+                </a>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/about-us.php" target=""
+                title="आमच्या विषयी">
+                आमच्या विषयी
+                </a>
+                <ul>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/department-history-marathi.php"
+                    title="विभागीय माहिती">
+                    विभागीय माहिती
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/vision---mission-marathi.php"
+                    title="हेतू आणि ध्येय">
+                    हेतू आणि ध्येय
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/organization-structure-marathi.php"
+                    title="संस्थेचा आराखडा">
+                    संस्थेचा आराखडा
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/our-leaderhip-marathi.php"
+                    title="आमचे नेतृत्व">
+                    आमचे नेतृत्व
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/authority-members-marathi.php"
+                    title="सक्षम सदस्य">
+                    सक्षम सदस्य
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/our-affiliated-offices-marathi.php"
+                    title="संलग्न कार्यालये">
+                    संलग्न कार्यालये
+                    </a>
+                    <ul>
+                    <li>
+                        <a href="https://www.sra.gov.in/upload/cmsfiles/" target="_blank" title="डी.आर.पी  (धारावी)">
+                        डी.आर.पी (धारावी)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sra.gov.in/pagem/innerpage/thane-city-marathi.php"
+                        target="" title="ठाणे शहर">
+                        ठाणे शहर
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://housing.maharashtra.gov.in/" target="_blank" title="गृहनिर्माण विभाग">
+                        गृहनिर्माण विभाग
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mahahousing.mahaonline.gov.in/" target="_blank" title="महाराष्ट्र गृहनिर्माण विकास महामंडळ">
+                        महाराष्ट्र गृहनिर्माण विकास महामंडळ
+                        </a>
+                    </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/gallery.php" title="गॅलरी">
+                    गॅलरी
+                    </a>
+                    <ul>
+                    <li>
+                        <a href="https://www.sra.gov.in/pagem/innerpage/photo-gallery.php" target=""
+                        title="फोटो गॅलरी">
+                        फोटो गॅलरी
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sra.gov.in/pagem/innerpage/spot_light.php" target=""
+                        title="स्पॉटलाइट">
+                        स्पॉटलाइट
+                        </a>
+                    </li>
+                    </ul>
+                </li>
+                </ul>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/our-projects-marathi.php"
+                target="" title="आमचे प्रकल्प">
+                आमचे प्रकल्प
+                </a>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/tenders---notices-marathi.php"
+                target="" title="निविदा आणि सूचना">
+                निविदा आणि सूचना
+                </a>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/resources-marathi.php"
+                target="" title="संसाधने">
+                संसाधने
+                </a>
+                <ul>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/notification---acts-marathi.php"
+                    title="अधिसूचना आणि कायदा">
+                    अधिसूचना आणि कायदा
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/upload/cmsfiles/15139381181509647295sanad.pdf"
+                    _blank title="नागरी सनद">
+                    नागरी सनद
+                    </a>
+                </li>
+                <li>
+                    <a href="http://sra.gov.in/circularm" target="_blank" title="आमची परिपत्रके"
+                    onclick="return confirm('External website that opens in a new window.')">
+                    आमची परिपत्रके
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/gis-mis-slum-data-marathi.php"
+                    title="जीआयएस-एमआयएस झोपडपट्टी डेटा">
+                    जीआयएस-एमआयएस झोपडपट्टी डेटा
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/coopertaive-department-marathi.php"
+                    title="सहकार विभाग">
+                    सहकार विभाग
+                    </a>
+                    <ul>
+                    <li>
+                        <a href="https://www.sra.gov.in/pagem/innerpage/act-and-rules-marathi.php"
+                        target="" title="कायदा व नियम">
+                        कायदा व नियम
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sra.gov.in/pagem/innerpage/housing-manual-marathi.php"
+                        target="" title="गृहनिर्माण पुस्तिका">
+                        गृहनिर्माण पुस्तिका
+                        </a>
+                    </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://sra.gov.in/ordersm" target="_blank" title="आमचे आदेश"
+                    onclick="return confirm('External website that opens in a new window.')">
+                    आमचे आदेश
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/https:grmaharashtragovin1145government-resolutions.php"
+                    title="शासन निर्णय">
+                    शासन निर्णय
+                    </a>
+                </li>
+                </ul>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/citizen-services-marathi.php"
+                target="" title="नागरी सेवा">
+                नागरी सेवा
+                </a>
+                <ul>
+                <li>
+                    <a href="{{route('rtimarathi')}}" title="माहितीचा अधिकार कायदा">
+                    माहितीचा अधिकार कायदा
+                    </a>
+                    <ul>
+                    <li>
+                        <a href="https://www.sra.gov.in/upload/cmsfiles/15139388061509645558RTI_Act_2005.pdf"
+                        target="_blank" title="माहितीचा अधिकार कायदा २००५">
+                        माहितीचा अधिकार कायदा २००५
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sra.gov.in/upload/cmsfiles/15198076151514438109RTI_board.pdf"
+                        target="_blank" title="जनमाहिती आणि अपिल अधिकारी">
+                        जनमाहिती आणि अपिल अधिकारी
+                        </a>
+                    </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://sra.gov.in/processtracker" target="_blank" title="आपल्या पत्रांचा मागोवा"
+                    onclick="return confirm('External website that opens in a new window.')">
+                    आपल्या पत्रांचा मागोवा
+                    </a>
+                </li>
+                <li>
+                    <a href="http://112.133.240.62/srapublic/" target="_blank" title="योजना माहिती"
+                    onclick="return confirm('External website that opens in a new window.')">
+                    योजना माहिती
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/rent-managemnt-system-mr.php"
+                    title="भाडे व्यवस्थापन प्रणाली">
+                    भाडे व्यवस्थापन प्रणाली
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/transfer-of-tenements.php"
+                    title="सदनिकेचे / गाळयाचे हस्तांतरण (Transfer Of Tenement)">
+                    सदनिकेचे / गाळयाचे हस्तांतरण (Transfer Of Tenement)
+                    </a>
+                </li>
+                </ul>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/contact-us-marathi.php"
+                target="" title="संपर्क साधा">
+                संपर्क साधा
+                </a>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/right-to-service-marathi.php"
+                target="" title="महाराष्ट्र लोकसेवा हक्क अधिनियम, २०१५">
+                महाराष्ट्र लोकसेवा हक्क अधिनियम, २०१५
+                </a>
+            </li>
+            <li class="has-sub">
+                <a href="https://www.sra.gov.in/pagem/innerpage/अधिक.php" target="" title="अधिक">
+                अधिक
+                </a>
+                <ul>
+                <li>
+                    <a href="https://www.sra.gov.in/pagem/innerpage/enviornment-cell-marathi.php"
+                    title="पर्यावरण कक्ष">
+                    पर्यावरण कक्ष
+                    </a>
+                </li>
+                <li>
+                    <a href="http://umd.nic.in/sra/" target="_blank" title="भौगोलिक स्थितीचे संकेतस्थळ"
+                    onclick="return confirm('External website that opens in a new window.')">
+                    भौगोलिक स्थितीचे संकेतस्थळ
+                    </a>
+                </li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        <div id="content">
+        </div>
+        </nav>
+    </div>
+    </section>
