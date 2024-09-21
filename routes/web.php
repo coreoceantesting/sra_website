@@ -23,7 +23,19 @@ Route::get('test', function () {
         return view('test');
     });
 
+
+
 Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'Home']);
+// Route::get('rtimarathi', [App\Http\Controllers\Admin\DashboardController::class, 'rtimarathi']);
+
+
+
+
+
+
+
+
+
 // Guest Users
 Route::middleware(['guest', 'PreventBackHistory', 'firewall.all'])->group(function () {
 
