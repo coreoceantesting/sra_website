@@ -340,25 +340,25 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="http://sra.gov.in/processtracker" target="_blank" title="आपल्या पत्रांचा मागोवा"
+                    <a href="{{route('processtracker')}}" target="_blank" title="आपल्या पत्रांचा मागोवा"
                     onclick="return confirm('External website that opens in a new window.')">
                     आपल्या पत्रांचा मागोवा
                     </a>
                 </li>
                 <li>
-                    <a href="http://112.133.240.62/srapublic/" target="_blank" title="योजना माहिती"
+                    <a href="" target="_blank" title="योजना माहिती"
                     onclick="return confirm('External website that opens in a new window.')">
                     योजना माहिती
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/rent-managemnt-system-mr.php"
+                    <a href="{{route('rentmanagemntsystemmr')}}"
                     title="भाडे व्यवस्थापन प्रणाली">
                     भाडे व्यवस्थापन प्रणाली
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/transfer-of-tenements.php"
+                    <a href="{{route('transferoftenements')}}"
                     title="सदनिकेचे / गाळयाचे हस्तांतरण (Transfer Of Tenement)">
                     सदनिकेचे / गाळयाचे हस्तांतरण (Transfer Of Tenement)
                     </a>
@@ -366,24 +366,24 @@
                 </ul>
             </li>
             <li class="has-sub">
-                <a href="https://www.sra.gov.in/pagem/innerpage/contact-us-marathi.php"
+                <a href="{{route('contactusmarathi')}}"
                 target="" title="संपर्क साधा">
                 संपर्क साधा
                 </a>
             </li>
             <li class="has-sub">
-                <a href="https://www.sra.gov.in/pagem/innerpage/right-to-service-marathi.php"
+                <a href="{{route('righttoservicemarathi')}}"
                 target="" title="महाराष्ट्र लोकसेवा हक्क अधिनियम, २०१५">
                 महाराष्ट्र लोकसेवा हक्क अधिनियम, २०१५
                 </a>
             </li>
             <li class="has-sub">
-                <a href="https://www.sra.gov.in/pagem/innerpage/अधिक.php" target="" title="अधिक">
+                <a href="" target="" title="अधिक">
                 अधिक
                 </a>
                 <ul>
                 <li>
-                    <a href="https://www.sra.gov.in/pagem/innerpage/enviornment-cell-marathi.php"
+                    <a href="{{route('enviornmentcellmarathi')}}"
                     title="पर्यावरण कक्ष">
                     पर्यावरण कक्ष
                     </a>
