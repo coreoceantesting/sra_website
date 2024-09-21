@@ -62,7 +62,7 @@ Route::get('actandrulesmarathi', [App\Http\Controllers\TestController::class, 'a
 
 Route::get('notification---acts-marathi', [App\Http\Controllers\TestController::class, 'notificationactsmarathi'])->name('notificationactsmarathi');
 
-Route::get('gis-mis-slum-data-marathi', [App\Http\Controllers\TestController::class, 'gismisslumdatamarathi'])->name('gismisslumdatamarathi');
+// Route::get('gis-mis-slum-data-marathi', [App\Http\Controllers\TestController::class, 'gismisslumdatamarathi'])->name('gismisslumdatamarathi');
 
 
 
