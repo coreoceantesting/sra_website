@@ -24,10 +24,18 @@ Route::get('test', function () {
     });
 // website routes
 
+
+
 Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'Home']);
+Route::get('rtimarathi', [App\Http\Controllers\Admin\DashboardController::class, 'rtimarathi']);
 
 
-// end website routes
+
+
+
+
+
+
 
 // Guest Users
 Route::middleware(['guest', 'PreventBackHistory', 'firewall.all'])->group(function () {
