@@ -22,8 +22,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('test', function () {
         return view('test');
     });
+// website routes
 
 Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'Home']);
+
+
+// end website routes
+
 // Guest Users
 Route::middleware(['guest', 'PreventBackHistory', 'firewall.all'])->group(function () {
 
