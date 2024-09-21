@@ -8,4 +8,10 @@ use Illuminate\Http\Request;
 class MainController extends Controller
 {
     //
+
+
+    public function aboutDrp()
+    {
+        return view('pagem.innerpage.department-history-marathi');
+    }
 }
