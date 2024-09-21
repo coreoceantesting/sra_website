@@ -26,7 +26,7 @@ Route::get('test', function () {
 
 
 Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'Home']);
-// Route::get('rtimarathi', [App\Http\Controllers\Admin\DashboardController::class, 'rtimarathi']);
+Route::get('rtimarathi', [App\Http\Controllers\Admin\DashboardController::class, 'rtimarathi']);
 
 
 
