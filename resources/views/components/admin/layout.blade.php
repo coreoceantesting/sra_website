@@ -23,6 +23,8 @@
     <link href="{{ asset('admin/css/app.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('admin/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('admin/css/font-awesome-all.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
     @stack('styles')
 </head>
 

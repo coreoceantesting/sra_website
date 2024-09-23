@@ -87,10 +87,15 @@ Route::get('notification---acts-marathi', [App\Http\Controllers\TestController::
 // Route::get('gis-mis-slum-data-marathi', [App\Http\Controllers\TestController::class, 'gismisslumdatamarathi'])->name('gismisslumdatamarathi');
 
 
+// use App\Http\Controllers\BotManController;
 
+// Route::match(['get', 'post'], '/botman', [App\Http\Controllers\BotManController::class, 'handle']);
+Route::get('/bot', [App\Http\Controllers\BotManController::class, 'tinker']);
 
+// Route::post('/chat', [App\Http\Controllers\ChatController::class, 'chat']);
 
-
+// Route::match(['get', 'post'], '/botman', [App\Http\Controllers\BotManController::class, 'handle']);
+Route::match(['get', 'post'], '/botman', [App\Http\Controllers\BotManController::class, 'handle']);
 
 // Guest Users
 Route::middleware(['guest', 'PreventBackHistory', 'firewall.all'])->group(function () {

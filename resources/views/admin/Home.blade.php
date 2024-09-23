@@ -4,6 +4,10 @@
 
 @section('content')
 
+{{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
+{{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css"> --}}
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+{{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css"> --}}
 
 <section class="bg_gray">
     <div class="mean-container">
@@ -582,5 +586,19 @@
       </div>
     </div>
   </section>
+  {{-- <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
+  <script>
+    var botmanWidget = {
+        aboutText: 'ssdsd',
+        introMessage: "✋ Hi! I'm form sra.com"
+    };
+</script> --}}
+<script>
+    var botmanWidget = {
+        aboutText: 'ssdsd',
+        introMessage: "✋ Hi! I'm form sra.com"
+    };
+</script>
 
+<script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
 @endsection
