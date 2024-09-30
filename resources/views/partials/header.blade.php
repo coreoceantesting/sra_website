@@ -1,5 +1,5 @@
 <header>
-    <div class="header_top" style="background-color: rgb(71, 71, 245);">
+    <div class="header_top" style="background-color: #3e3da5;">
       <div class="container">
         <div class="pull-left">
           <ul class="top_access">
@@ -67,7 +67,7 @@
               </ul>
             </li>
             <li class="">
-              <a href="https://sra.gov.in/dashboard" class="width_auto">
+              <a href="" class="width_auto">
                 <span>
                   English
                 </span>
@@ -91,9 +91,9 @@
                 झोपडपट्टी पुनर्वसन प्राधिकरण, बृहन्मुंबई
               </h1>
 
-              <h2 style="font-family: 'David-Bold', sans-serif;">
-                  <b> Slum Rehabilitation Authority, Brihanmumbai
-                </h2>
+              <h4 style="font-family: 'David-Bold', sans-serif;">
+                  <b> Slum Rehabilitation Authority, Brihanmumbai</b>
+                </h4>
 
               <p>
                 <span class="hindi_19">

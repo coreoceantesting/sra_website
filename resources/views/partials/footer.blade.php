@@ -1,4 +1,4 @@
-<section class="bg_gray">
+<section class="">
 <footer class="footer" style="background: #555cf4">
 
 
