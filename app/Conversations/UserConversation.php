@@ -13,6 +13,7 @@ class UserConversation extends Conversation
         $this->askName();
     }
 
+
     public function askName()
     {
         $this->ask('Can I rent my SRA flat?', function(Answer $answer) {
