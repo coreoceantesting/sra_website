@@ -462,7 +462,6 @@
                    <div id="nividaanisuchana" class="tab-pane fade"></div>
                 </div>
              </div>
-
           </div>
           <div class="col-md-4 col-xs-12">
             <div class="card" style="border: 1px solid rgba(0, 142, 255, 0.38); background-color: #ffffff; opacity: 1;">
